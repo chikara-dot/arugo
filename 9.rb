@@ -20,3 +20,20 @@ check("abc")
 check("Ababcde")
 check("PAbcD")
 check("aoabbca")
+
+print("Regexp","\n")
+def check(str)
+  print(str + "は/入門/に")
+  reg = Regexp.compile("入門")
+  if reg =~ str
+    print("マッチします","\n")
+  else
+    print("マッチしません","\n")
+  end 
+end
+
+check("Ruby入門")
+check("入門する")
+check("入社する")
+
+print("=~","\n")
